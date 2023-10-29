@@ -1,0 +1,67 @@
+/* Write your CSS here */
+
+.main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #93c5fd;
+}
+
+.main-card-container {
+  border-radius: 10px;
+  padding: 30px;
+  width: 470px;
+  height: 250px;
+  background-color: #f8fafc;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-heading {
+  color: #000000;
+  font-size: 30px;
+  margin-left: 20px;
+  font-family: 'Roboto';
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+}
+
+.capitalSelect {
+  color: #323f4b;
+  width: 42%;
+  height: 40px;
+  border: 1px, solid, #cbd2d9;
+  font-weight: bold;
+}
+
+@media screen and (min-width: 765px) {
+  .capitalSelect {
+    width: 39%;
+  }
+}
+
+.main-options {
+  color: #323f4b;
+  font-weight: bold;
+  font-family: 'Roboto';
+}
+
+.main-paragraph {
+  color: #1e293b;
+  font-weight: 600;
+  font-size: 17px;
+  margin-left: 10px;
+  margin-top: 8px;
+}
+
+.main-display-country {
+  color: #000000;
+  font-weight: 600;
+  font-size: 25px;
+  font-family: 'Roboto';
+  margin-left: 13px;
+}
